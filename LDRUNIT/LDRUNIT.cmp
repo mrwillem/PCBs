@@ -1,0 +1,219 @@
+Cmp-Mod V01 Created by PcbNew   date = So 17 Feb 2019 16:02:19 CET
+
+BeginCmp
+TimeStamp = 5C58C2FF
+Path = /5C585449
+Reference = C2;
+ValeurCmp = 100 nF;
+IdModule  = Resistors_SMD_Addons:R_0603_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C2F9
+Path = /5C585367
+Reference = C1;
+ValeurCmp = 100 nF;
+IdModule  = Resistors_SMD_Addons:R_0603_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C305
+Path = /5C58F9C3
+Reference = C3;
+ValeurCmp = C;
+IdModule  = Resistors_SMD_Addons:R_0805_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C30B
+Path = /5C58F92D
+Reference = C4;
+ValeurCmp = C;
+IdModule  = Resistors_SMD_Addons:R_0805_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C311
+Path = /5C584B75
+Reference = D1;
+ValeurCmp = D_Zener;
+IdModule  = Diodes_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C317
+Path = /5C584A91
+Reference = D2;
+ValeurCmp = D_Zener;
+IdModule  = Diodes_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C31D
+Path = /5C58415D
+Reference = D101;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C323
+Path = /5C59AE58
+Reference = D102;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C329
+Path = /5C5842A3
+Reference = D103;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C32F
+Path = /5C59AF55
+Reference = D104;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C344
+Path = /5C586AB6
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Resistors_SMD_Addons:R_0805_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C34A
+Path = /5C586109
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Resistors_SMD_Addons:R_0805_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C350
+Path = /5C5850D8
+Reference = R3;
+ValeurCmp = R;
+IdModule  = Resistors_SMD_Addons:R_0805_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C356
+Path = /5C585162
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Resistors_SMD_Addons:R_0805_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C35C
+Path = /5C58FB83
+Reference = R5;
+ValeurCmp = R;
+IdModule  = Resistors_SMD_Addons:R_0805_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C362
+Path = /5C58FC44
+Reference = R6;
+ValeurCmp = R;
+IdModule  = Resistors_SMD_Addons:R_0805_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C368
+Path = /5C583A64
+Reference = R101;
+ValeurCmp = LDR03;
+IdModule  = Opto-Devices:Resistor_LDR_5.1x4.3_RM3.4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C36E
+Path = /5C583AEF
+Reference = R102;
+ValeurCmp = LDR03;
+IdModule  = Opto-Devices:Resistor_LDR_5.1x4.3_RM3.4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C374
+Path = /5C5839F6
+Reference = R103;
+ValeurCmp = LDR03;
+IdModule  = Opto-Devices:Resistor_LDR_5.1x4.3_RM3.4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C37A
+Path = /5C583AA6
+Reference = R104;
+ValeurCmp = LDR03;
+IdModule  = Opto-Devices:Resistor_LDR_5.1x4.3_RM3.4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C381
+Path = /5C583BA6
+Reference = RV1;
+ValeurCmp = POT_TRIM;
+IdModule  = Potentiometers:Potentiometer_Trimmer_Bourns_3224J;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C388
+Path = /5C583C1E
+Reference = RV2;
+ValeurCmp = POT_TRIM;
+IdModule  = Potentiometers:Potentiometer_Trimmer_Bourns_3224J;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C391
+Path = /5C5839A8
+Reference = U1;
+ValeurCmp = OPA333DBV;
+IdModule  = TO_SOT_Packages_SMD:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C58C39A
+Path = /5C583930
+Reference = U2;
+ValeurCmp = OPA333DBV;
+IdModule  = TO_SOT_Packages_SMD:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C596F7B
+Path = /5C5970E7
+Reference = C5;
+ValeurCmp = C;
+IdModule  = Resistors_SMD_Addons:R_0805_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C5B3019
+Path = /5C596109
+Reference = J1;
+ValeurCmp = CONN_01X04;
+IdModule  = Connect_Addons:Pin_Header__1x04_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C5B3030
+Path = /5C59BDFF
+Reference = J2;
+ValeurCmp = CONN_01X04;
+IdModule  = Connect_Addons:Pin_Header__1x04_Pitch2.54mm;
+EndCmp
+
+EndListe

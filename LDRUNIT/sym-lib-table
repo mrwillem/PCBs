@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name LDRUNIT-rescue)(type Legacy)(uri ${KIPRJMOD}/LDRUNIT-rescue.lib)(options "")(descr ""))
+  (lib (name microchip)(type Legacy)(uri /home/willem/kicad/library/microchip.lib)(options "")(descr ""))
+  (lib (name texas)(type Legacy)(uri /home/willem/kicad/library/texas.lib)(options "")(descr ""))
+  (lib (name interface)(type Legacy)(uri /home/willem/kicad/library/interface.lib)(options "")(descr ""))
+  (lib (name philips)(type Legacy)(uri /home/willem/kicad/library/philips.lib)(options "")(descr ""))
+  (lib (name atmel)(type Legacy)(uri /home/willem/kicad/library/atmel.lib)(options "")(descr ""))
+)

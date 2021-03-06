@@ -1,0 +1,132 @@
+Source,/home/willem/kicad/MIDI_FOOTSWITCH/MIDI_FOOTSWITCH.sch
+Kicad Rev,Eeschema 5.1.4+dfsg1-1
+Generated Date,Mo 27 Jul 2020 19:39:36 CEST
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,5 feb 2016
+
+Reference,Value,Characteristics,Description,Manufacturer,Pricing,Library,Library Ref
+C3,22pF,Device,C
+C4,22pF,Device,C
+R31,10K,Device,R
+R30,10K,Device,R
+U2,CRYSTAL_SMD_CERAMIC,crystal_smd_ceramic,crystal_smd_ceramic
+C30,100nF,Device,C
+C5,100nF,Device,C
+C27,100nF,Device,C
+C28,100nF,Device,C
+C25,100nF,Device,C
+C7,10uF,Device,C
+C6,10uF,Device,C
+C29,100nF,Device,C
+C32,100nF,Device,C
+P2,CONN_02X05,Connector_Generic,Conn_02x05_Odd_Even
+U11,74HC14,MIDI_FOOTSWITCH-rescue,74HC14-Midi_Merger-rescue
+R2,220R,MIDI_FOOTSWITCH-rescue,R-Midi_Merger-rescue
+D1,1N4148,MIDI_FOOTSWITCH-rescue,D-Midi_Merger-rescue
+R1,270R,MIDI_FOOTSWITCH-rescue,R-Midi_Merger-rescue
+C2,100nF,Device,C
+C1,4,7uF,Device,C
+C10,100nF,Device,C
+C8,4,7uF,Device,C
+R4,10R,MIDI_FOOTSWITCH-rescue,R-Midi_Merger-rescue
+R11,33R 0.5W,MIDI_FOOTSWITCH-rescue,R-Midi_Merger-rescue
+C9,100nF,Device,C
+R6,10K,Device,R
+J5,Conn_01x10,Connector_Generic,Conn_01x10
+J4,Conn_01x02,Connector_Generic,Conn_01x02
+J3,Conn_01x02,Connector_Generic,Conn_01x02
+J2,Conn_01x02,Connector_Generic,Conn_01x02
+U100,LMR62014,LMR62014,LMR62014
+R101,1M,Device,R
+D101,MBR0520LT1G,Device,D
+L101,10uH,Device,L
+C102,200pF,Device,C
+R102,133k,Device,R
+R103,13.3k,Device,R
+C101,4.7uF,Device,C
+J6,Conn_01x24_Female,Connector,Conn_01x24_Female
+U4,STM32F412RETx,MCU_ST_STM32F4,STM32F412RETx
+U5,H11L1,Isolator,H11L1
+FB1,Ferrite_Bead,Device,Ferrite_Bead
+FB2,Ferrite_Bead,Device,Ferrite_Bead
+FB3,Ferrite_Bead,Device,Ferrite_Bead
+FB4,Ferrite_Bead,Device,Ferrite_Bead
+C103,2,2uF,Device,C
+U3,FM24CL16B-G,Memory_NVRAM,FM24C64B
+R3,2K2,Device,R
+R5,2K2,Device,R
+J7,NE8FBH-C5-LED1-S,Horizontal PCB mount RJ45 receptacle, CAT5e, shielded, two light pipes for SMD-LEDs, B-Series cutout with latch lock, max. panel thickness 3 mm,Horizontal PCB mount RJ45 receptacle, CAT5e, shielded, two light pipes for SMD-LEDs, B-Series cutout with latch lock, max. panel thickness 3 mm,Neutrik,0.00@0,Neutrik_Etherconn,NE8FBH-C5-LED1-S
+L1,L,Device,L
+C12,100nF,Device,C
+C13,CP,Device,CP
+R7,10K,Device,R
+C15,100nF,Device,C
+C14,10uF,Device,C
+C11,10uF,Device,C
+H2,MountingHole_Pad,Mechanical,MountingHole_Pad
+H1,MountingHole_Pad,Mechanical,MountingHole_Pad
+D4,RED,MIDI_FOOTSWITCH-rescue,LED-RESCUE-CamperDisplayBattery-CAN_Battery_Switch_v2-rescue
+C19,4.7uF GRM31CR71H47,MIDI_FOOTSWITCH-rescue,C-CAN_Battery_Switch_v2-rescue
+C20,100nF,MIDI_FOOTSWITCH-rescue,C-CAN_Battery_Switch_v2-rescue
+C17,1uF 0805ZC105KAT2A,MIDI_FOOTSWITCH-rescue,C-CAN_Battery_Switch_v2-rescue
+C31,10uF,MIDI_FOOTSWITCH-rescue,C-CAN_Battery_Switch_v2-rescue
+C16,100pF 60V,MIDI_FOOTSWITCH-rescue,C-CAN_Battery_Switch_v2-rescue
+C33,1uF GRM219R71E105KA88D,MIDI_FOOTSWITCH-rescue,C-CAN_Battery_Switch_v2-rescue
+C21,33uF,MIDI_FOOTSWITCH-rescue,CP-CAN_Battery_Switch_v2-rescue
+Q1,Si4497DY,MIDI_FOOTSWITCH-rescue,NTMFS5C646NL-NTMFS5C646NL
+D2,BZG03C15TR,MIDI_FOOTSWITCH-rescue,ZENER-CAN_Battery_Switch_v2-rescue
+R8,100K,MIDI_FOOTSWITCH-rescue,R-CAN_Battery_Switch_v2-rescue
+U1,LTC3245,MIDI_FOOTSWITCH-rescue,LTC3245-CAN_Battery_Switch_v2-rescue
+D3,D_TVS,MIDI_FOOTSWITCH-rescue,D_TVS-CAN_Battery_Switch_v2-rescue
+C18,4.7uF GRM31CR71H47,MIDI_FOOTSWITCH-rescue,C-CAN_Battery_Switch_v2-rescue
+C26,1uF GRM219R71E105KA88D,MIDI_FOOTSWITCH-rescue,C-CAN_Battery_Switch_v2-rescue
+C24,1nF,MIDI_FOOTSWITCH-rescue,C-CAN_Battery_Switch_v2-rescue
+C23,100nF,MIDI_FOOTSWITCH-rescue,C-CAN_Battery_Switch_v2-rescue
+C22,10nF,MIDI_FOOTSWITCH-rescue,C-CAN_Battery_Switch_v2-rescue
+R9,130R,MIDI_FOOTSWITCH-rescue,R-CAN_Battery_Switch_v2-rescue
+FB6,Ferrite_Bead,Device,Ferrite_Bead
+FB5,Ferrite_Bead,Device,Ferrite_Bead
+FB7,Ferrite_Bead,Device,Ferrite_Bead
+FB8,Ferrite_Bead,Device,Ferrite_Bead
+D5,RED,MIDI_FOOTSWITCH-rescue,LED-RESCUE-CamperDisplayBattery-CAN_Battery_Switch_v2-rescue
+R12,130R,MIDI_FOOTSWITCH-rescue,R-CAN_Battery_Switch_v2-rescue
+D6,RED,MIDI_FOOTSWITCH-rescue,LED-RESCUE-CamperDisplayBattery-CAN_Battery_Switch_v2-rescue
+R13,130R,MIDI_FOOTSWITCH-rescue,R-CAN_Battery_Switch_v2-rescue
+L2,100uH,Device,L
+C34,220uF,Device,CP
+C35,220uF,Device,CP
+R10,0.5R,Device,R
+R16,R,Device,R
+R17,R,Device,R
+R14,R,Device,R
+R15,R,Device,R
+C37,100nF,Device,C
+C38,2,2uF,Device,C
+C36,4,7uF,Device,C
+C39,2,2uF,Device,C
+R18,1R6,Device,R
+U6,ADG633YRU,Analog_Switch,ADG633YRU
+R19,100K,Device,R
+C40,4,7uF,Device,C
+C41,100nF,Device,C
+J1,Conn_01x05,Connector_Generic,Conn_01x05
+C42,4.7uF,Device,C
+C43,4.7uF,Device,C
+FB9,Ferrite_Bead,Device,Ferrite_Bead
+C45,100nF,Device,C
+C44,100nF,Device,C
+C46,4,7uF,Device,C
+C48,4,7uF,Device,C
+C47,100nF,Device,C
+C49,4,7uF,Device,C
+R25,100K,Device,R
+D7,D_TVS,Device,D_TVS
+D11,D_TVS,Device,D_TVS
+R24,R,Device,R
+R20,R,Device,R
+D8,D_TVS,Device,D_TVS
+D9,D_TVS,Device,D_TVS
+D10,D_TVS,Device,D_TVS

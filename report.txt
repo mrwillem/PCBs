@@ -1,0 +1,83 @@
+Hinweis: Erstelle Sicherungskopie von Datei "/home/willem/kicad/DI2C_CAPACITIVE_SENSOR/sym-lib-table" in Datei "/home/willem/kicad/DI2C_CAPACITIVE_SENSOR/rescue-backup/sym-lib-table-2020-06-15-00-41-02".
+Hinweis: Erstelle Sicherungskopie von Datei "/home/willem/kicad/DI2C_CAPACITIVE_SENSOR/DI2C_CAPACITIVE_SENSOR.sch" in Datei "/home/willem/kicad/DI2C_CAPACITIVE_SENSOR/rescue-backup/DI2C_CAPACITIVE_SENSOR-2020-06-15-00-41-02.sch".
+Hinweis: Erstelle Sicherungskopie von Datei "/home/willem/kicad/DI2C_CAPACITIVE_SENSOR/DI2C_CAPACITIVE_SENSOR.pro" in Datei "/home/willem/kicad/DI2C_CAPACITIVE_SENSOR/rescue-backup/DI2C_CAPACITIVE_SENSOR-2020-06-15-00-41-02.pro".
+Hinweis: Erstelle Sicherungskopie von Datei "/home/willem/kicad/DI2C_CAPACITIVE_SENSOR/DI2C_CAPACITIVE_SENSOR-cache.lib" in Datei "/home/willem/kicad/DI2C_CAPACITIVE_SENSOR/rescue-backup/DI2C_CAPACITIVE_SENSOR-cache-2020-06-15-00-41-02.lib".
+Hinweis: Erstelle Sicherungskopie von Datei "/home/willem/kicad/DI2C_CAPACITIVE_SENSOR/DI2C_CAPACITIVE_SENSOR-rescue.lib" in Datei "/home/willem/kicad/DI2C_CAPACITIVE_SENSOR/rescue-backup/DI2C_CAPACITIVE_SENSOR-rescue-2020-06-15-00-41-02.lib".
+Hinweis: Erstelle Sicherungskopie von Datei "/home/willem/kicad/DI2C_CAPACITIVE_SENSOR/DI2C_CAPACITIVE_SENSOR-rescue.dcm" in Datei "/home/willem/kicad/DI2C_CAPACITIVE_SENSOR/rescue-backup/DI2C_CAPACITIVE_SENSOR-rescue-2020-06-15-00-41-02.dcm".
+Hinweis: Füge Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue", Datei "${KIPRJMOD}/DI2C_CAPACITIVE_SENSOR-rescue.lib" der Bauteilbibliothekstabelle des Projektes hinzu.
+Hinweis: Füge Bibliothek "microchip", Datei "/home/willem/kicad/library/microchip.lib" der Bauteilbibliothekstabelle des Projektes hinzu.
+Hinweis: Füge Bibliothek "texas", Datei "/home/willem/kicad/library/texas.lib" der Bauteilbibliothekstabelle des Projektes hinzu.
+Hinweis: Füge Bibliothek "interface", Datei "/home/willem/kicad/library/interface.lib" der Bauteilbibliothekstabelle des Projektes hinzu.
+Hinweis: Füge Bibliothek "philips", Datei "/home/willem/kicad/library/philips.lib" der Bauteilbibliothekstabelle des Projektes hinzu.
+Hinweis: Füge Bibliothek "atmel", Datei "/home/willem/kicad/library/atmel.lib" der Bauteilbibliothekstabelle des Projektes hinzu.
+Hinweis: Füge Bibliothek "PCA9615", Datei "/home/willem/kicad/library/PCA9615.lib" der Bauteilbibliothekstabelle des Projektes hinzu.
+Hinweis: Füge Bibliothek "Dual_USB3_GSB311231HR", Datei "/home/willem/kicad/library/Dual_USB3_GSB311231HR.lib" der Bauteilbibliothekstabelle des Projektes hinzu.
+Hinweis: Füge Bibliothek "Micro_USB3_GSB343133HR", Datei "/home/willem/kicad/library/Micro_USB3_GSB343133HR.lib" der Bauteilbibliothekstabelle des Projektes hinzu.
+Hinweis: Füge Bibliothek "FDC1004", Datei "/home/willem/kicad/library/FDC1004.lib" der Bauteilbibliothekstabelle des Projektes hinzu.
+Hinweis: Füge Bibliothek "PI4MSD5V9540", Datei "/home/willem/kicad/library/PI4MSD5V9540.lib" der Bauteilbibliothekstabelle des Projektes hinzu.
+Hinweis: Füge Bibliothek "WE8240136", Datei "/home/willem/kicad/library/WE8240136.lib" der Bauteilbibliothekstabelle des Projektes hinzu.
+Hinweis: Füge Bibliothek "NUP4302MR6", Datei "/home/willem/kicad/library/NUP4302MR6.lib" der Bauteilbibliothekstabelle des Projektes hinzu.
+Bauteilsymbol "PCA9615" wurde der Bibliothek "PCA9615" zugeordnet.
+Bauteilsymbol "Micro_USB3_GSB343133HR" wurde der Bibliothek "Micro_USB3_GSB343133HR" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "+3.3V" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "+3.3V" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "FDC1004" wurde der Bibliothek "FDC1004" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "PI4MSD5V9540" wurde der Bibliothek "PI4MSD5V9540" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "+3.3V" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "+3.3V" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "+3.3V" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "+3.3V" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "NUP4302MR6" wurde der Bibliothek "NUP4302MR6" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "+3.3V" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "D_TVS" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "D" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "Q_PMOS_GSD" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "+3.3V" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "D_Zener" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "+3.3V" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "CONN_01X02" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "CONN_01X02" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "CONN_01X02" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "CONN_01X02" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "+3.3V" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Bauteilsymbol "+3.3V" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "GND" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "DI2C_CAPACITIVE_SENSOR-rescue" zugeordnet.
+Hinweis: Kartierung der Bauteilbibliothekstabelle ist fertig gestellt!

@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.2  Date: 27/06/2016-15:11:43
+#
+# Resistor network fourfold
+#
+DEF Resistor network fourfold U 0 40 Y Y 1 0 N
+F0 "U" 0 -100 50 H V C C
+F1 "Resistor network fourfold" 0 100 50 H V C C
+F2 "MODULE" 0 0 50 H I C C
+F3 "DOCUMENTATION" 0 0 50 H I C C
+DRAW
+S -450 -350 450 350 1 0 0 N
+X R1A 1 -750 150 300 R 50 50 1 1 I
+X R2A 2 -750 50 300 R 50 50 1 1 I
+X R3A 3 -750 -50 300 R 50 50 1 1 I
+X R4A 4 -750 -150 300 R 50 50 1 1 I
+X R4B 5 750 -150 300 L 50 50 1 1 I
+X R3B 6 750 -50 300 L 50 50 1 1 I
+X R2B 7 750 50 300 L 50 50 1 1 I
+X R1B 8 750 150 300 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

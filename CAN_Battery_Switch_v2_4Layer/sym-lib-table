@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CAN_Battery_Switch_v2-rescue)(type Legacy)(uri ${KIPRJMOD}/CAN_Battery_Switch_v2-rescue.lib)(options "")(descr ""))
+)

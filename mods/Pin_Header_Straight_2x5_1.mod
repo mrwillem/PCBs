@@ -1,0 +1,97 @@
+PCBNEW-LibModule-V1  Mi 17 Feb 2016 14:19:32 CET
+# encoding utf-8
+Units mm
+$INDEX
+Pin_Header_Straight_2x05_Pitch1.27mm
+$EndINDEX
+$MODULE Pin_Header_Straight_2x05_Pitch1.27mm
+Po -48.3362 -96.0628 0 15 56C47346 00000000 ~~
+Li Pin_Header_Straight_2x05_Pitch1.27mm
+Cd Through hole pin header, pitch 1.27mm
+Kw pin header
+Sc 0
+AR 
+Op 0 0 0
+T0 0.55 -1.7 1 1 0 0.15 N V 21 N "REF**"
+T1 0 0 1.524 1.524 0 0.15 N V 21 N "Pin Header 1.27 mm "
+DS -0.8509 0.4826 -0.8509 1.3716 0.15 21
+DS -0.8509 1.3716 -0.84582 1.41224 0.15 21
+DS 1.2446 -0.80264 0.52324 -0.8001 0.15 21
+DS 2.1 -0.8 1.3 -0.8 0.15 21
+DS 2.1 5.85 2.1 -0.8 0.15 21
+DS 2.1 5.85 -0.85 5.85 0.15 21
+DS -0.85 5.85 -0.85 1.3 0.15 21
+DS 0.5 -0.8 -0.85 -0.8 0.15 21
+DS -0.85 -0.8 -0.85 0.5 0.15 21
+$PAD
+Sh "1" R 1.05 1.05 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" C 1.05 1.05 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "5" C 1.05 1.05 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 2.54
+$EndPAD
+$PAD
+Sh "7" C 1.05 1.05 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 3.81
+$EndPAD
+$PAD
+Sh "9" C 1.05 1.05 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 5.08
+$EndPAD
+$PAD
+Sh "4" C 1.05 1.05 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.05 1.05 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 2.54
+$EndPAD
+$PAD
+Sh "8" C 1.05 1.05 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 3.81
+$EndPAD
+$PAD
+Sh "10" C 1.05 1.05 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 5.08
+$EndPAD
+$PAD
+Sh "2" C 1.05 1.05 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$EndMODULE Pin_Header_Straight_2x05_Pitch1.27mm
+$EndLIBRARY

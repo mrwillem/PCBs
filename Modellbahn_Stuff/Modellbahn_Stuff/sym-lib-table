@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Modellbahn_Stuff-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Modellbahn_Stuff-eagle-import.lib)(options "")(descr ""))
+)

@@ -1,0 +1,68 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:CC2640_32PIN
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CC2640_32PIN U1
+U 1 1 588489FD
+P 5300 2750
+F 0 "U1" H 5300 2650 50  0000 C CNN
+F 1 "CC2640_32PIN" H 5300 2850 50  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" H 5300 2750 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5300 2750 50  0001 C CNN
+	1    5300 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Crystal_GND23_Small Y1
+U 1 1 58848A2C
+P 5200 1550
+F 0 "Y1" H 5250 1725 50  0000 L CNN
+F 1 "Crystal_GND23_Small" H 5250 1650 50  0000 L CNN
+F 2 "Oscillators:Oscillator_SMD_SeikoEpson_SG210-4pin_2.5x2.0mm" H 5200 1550 50  0001 C CNN
+F 3 "" H 5200 1550 50  0000 C CNN
+	1    5200 1550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,1779 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ADG1436
+LIBS:LDRSWITCH
+LIBS:Dual_LDR
+LIBS:ADG5404
+LIBS:Dual_LDR_Modul
+LIBS:MAX5902
+LIBS:TL1963A-Q1
+LIBS:FrontAxisTubes-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ECC83 U2
+U 1 1 5AAD1601
+P 3200 -5350
+F 0 "U2" H 3330 -5040 50  0000 C CNN
+F 1 "ECC83" H 3550 -5650 50  0000 C CNN
+F 2 "Valves:VALVE-NOVAL_P" H 3470 -5750 50  0001 C CNN
+F 3 "" H 3200 -5350 50  0001 C CNN
+	1    3200 -5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ECC83 U2
+U 2 1 5AAD16F1
+P 12975 -5175
+F 0 "U2" H 13105 -4865 50  0000 C CNN
+F 1 "ECC83" H 13325 -5475 50  0000 C CNN
+F 2 "Valves:VALVE-NOVAL_P" H 13245 -5575 50  0001 C CNN
+F 3 "" H 12975 -5175 50  0001 C CNN
+	2    12975 -5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L ECC83 U2
+U 3 1 5AAD1759
+P 4750 -8675
+F 0 "U2" H 4880 -8365 50  0000 C CNN
+F 1 "ECC83" H 5100 -8975 50  0000 C CNN
+F 2 "Valves:VALVE-NOVAL_P" H 5020 -9075 50  0001 C CNN
+F 3 "" H 4750 -8675 50  0001 C CNN
+	3    4750 -8675
+	1    0    0    -1  
+$EndComp
+$Comp
+L ECC83 U1
+U 1 1 5AAD1879
+P -3850 -4175
+F 0 "U1" H -3720 -3865 50  0000 C CNN
+F 1 "ECC83" H -3500 -4475 50  0000 C CNN
+F 2 "Valves:VALVE-NOVAL_P" H -3580 -4575 50  0001 C CNN
+F 3 "" H -3850 -4175 50  0001 C CNN
+	1    -3850 -4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L ECC83 U1
+U 2 1 5AAD187F
+P 675 -5825
+F 0 "U1" H 805 -5515 50  0000 C CNN
+F 1 "ECC83" H 1025 -6125 50  0000 C CNN
+F 2 "Valves:VALVE-NOVAL_P" H 945 -6225 50  0001 C CNN
+F 3 "" H 675 -5825 50  0001 C CNN
+	2    675  -5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L ECC83 U1
+U 3 1 5AAD1885
+P 3875 -8700
+F 0 "U1" H 4005 -8390 50  0000 C CNN
+F 1 "ECC83" H 4225 -9000 50  0000 C CNN
+F 2 "Valves:VALVE-NOVAL_P" H 4145 -9100 50  0001 C CNN
+F 3 "" H 3875 -8700 50  0001 C CNN
+	3    3875 -8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse F1
+U 1 1 5C683978
+P -2575 -9975
+F 0 "F1" V -2495 -9975 50  0000 C CNN
+F 1 "Fuse" V -2650 -9975 50  0000 C CNN
+F 2 "" V -2645 -9975 50  0001 C CNN
+F 3 "" H -2575 -9975 50  0001 C CNN
+	1    -2575 -9975
+	0    1    1    0   
+$EndComp
+$Comp
+L D D1
+U 1 1 5C6842D1
+P -2100 -9975
+F 0 "D1" H -2100 -9875 50  0000 C CNN
+F 1 "D" H -2100 -10075 50  0000 C CNN
+F 2 "" H -2100 -9975 50  0001 C CNN
+F 3 "" H -2100 -9975 50  0001 C CNN
+	1    -2100 -9975
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D3
+U 1 1 5C6843C5
+P -2100 -9500
+F 0 "D3" H -2100 -9400 50  0000 C CNN
+F 1 "D" H -2100 -9600 50  0000 C CNN
+F 2 "" H -2100 -9500 50  0001 C CNN
+F 3 "" H -2100 -9500 50  0001 C CNN
+	1    -2100 -9500
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D2
+U 1 1 5C684467
+P -2100 -9725
+F 0 "D2" H -2100 -9625 50  0000 C CNN
+F 1 "D" H -2100 -9825 50  0000 C CNN
+F 2 "" H -2100 -9725 50  0001 C CNN
+F 3 "" H -2100 -9725 50  0001 C CNN
+	1    -2100 -9725
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D4
+U 1 1 5C6844FE
+P -2100 -9200
+F 0 "D4" H -2100 -9100 50  0000 C CNN
+F 1 "D" H -2100 -9300 50  0000 C CNN
+F 2 "" H -2100 -9200 50  0001 C CNN
+F 3 "" H -2100 -9200 50  0001 C CNN
+	1    -2100 -9200
+	1    0    0    -1  
+$EndComp
+Text GLabel -1900 -9725 2    60   Input ~ 0
+GND1
+Text GLabel -1850 -9200 2    60   Input ~ 0
+GND1
+$Comp
+L R R1
+U 1 1 5C684C59
+P -200 -9975
+F 0 "R1" V -120 -9975 50  0000 C CNN
+F 1 "6,8K" V -200 -9975 50  0000 C CNN
+F 2 "" V -270 -9975 50  0001 C CNN
+F 3 "" H -200 -9975 50  0001 C CNN
+	1    -200 -9975
+	0    1    1    0   
+$EndComp
+$Comp
+L CP C7
+U 1 1 5C684EEE
+P -550 -9825
+F 0 "C7" H -525 -9725 50  0000 L CNN
+F 1 "47 uF" H -525 -9925 50  0000 L CNN
+F 2 "" H -512 -9975 50  0001 C CNN
+F 3 "" H -550 -9825 50  0001 C CNN
+	1    -550 -9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C8
+U 1 1 5C684FEC
+P 200 -9825
+F 0 "C8" H 225 -9725 50  0000 L CNN
+F 1 "47 uF" H 225 -9925 50  0000 L CNN
+F 2 "" H 238 -9975 50  0001 C CNN
+F 3 "" H 200 -9825 50  0001 C CNN
+	1    200  -9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5C68534E
+P 675 -9975
+F 0 "R2" V 755 -9975 50  0000 C CNN
+F 1 "3,3K" V 675 -9975 50  0000 C CNN
+F 2 "" V 605 -9975 50  0001 C CNN
+F 3 "" H 675 -9975 50  0001 C CNN
+	1    675  -9975
+	0    1    1    0   
+$EndComp
+Text GLabel 200  -10100 1    60   Input ~ 0
+A+
+Text GLabel 975  -10100 1    60   Input ~ 0
+B+
+Text GLabel 1575 -10100 1    60   Input ~ 0
+C+
+Text GLabel 2200 -10100 1    60   Input ~ 0
+D+
+$Comp
+L CP C9
+U 1 1 5C685A8F
+P 975 -9825
+F 0 "C9" H 1000 -9725 50  0000 L CNN
+F 1 "47 uF" H 1000 -9925 50  0000 L CNN
+F 2 "" H 1013 -9975 50  0001 C CNN
+F 3 "" H 975 -9825 50  0001 C CNN
+	1    975  -9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5C685B42
+P 1325 -9975
+F 0 "R3" V 1405 -9975 50  0000 C CNN
+F 1 "3,3K" V 1325 -9975 50  0000 C CNN
+F 2 "" V 1255 -9975 50  0001 C CNN
+F 3 "" H 1325 -9975 50  0001 C CNN
+	1    1325 -9975
+	0    1    1    0   
+$EndComp
+$Comp
+L CP C10
+U 1 1 5C685CF2
+P 1600 -9825
+F 0 "C10" H 1625 -9725 50  0000 L CNN
+F 1 "47 uF" H 1625 -9925 50  0000 L CNN
+F 2 "" H 1638 -9975 50  0001 C CNN
+F 3 "" H 1600 -9825 50  0001 C CNN
+	1    1600 -9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 5C685D9B
+P 1925 -9975
+F 0 "R13" V 2005 -9975 50  0000 C CNN
+F 1 "3,3K" V 1925 -9975 50  0000 C CNN
+F 2 "" V 1855 -9975 50  0001 C CNN
+F 3 "" H 1925 -9975 50  0001 C CNN
+	1    1925 -9975
+	0    1    1    0   
+$EndComp
+$Comp
+L CP C11
+U 1 1 5C685ED3
+P 2200 -9825
+F 0 "C11" H 2225 -9725 50  0000 L CNN
+F 1 "47 uF" H 2225 -9925 50  0000 L CNN
+F 2 "" H 2238 -9975 50  0001 C CNN
+F 3 "" H 2200 -9825 50  0001 C CNN
+	1    2200 -9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 5C685F9C
+P 2600 -9825
+F 0 "R14" V 2680 -9825 50  0000 C CNN
+F 1 "270K" V 2600 -9825 50  0000 C CNN
+F 2 "" V 2530 -9825 50  0001 C CNN
+F 3 "" H 2600 -9825 50  0001 C CNN
+	1    2600 -9825
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C1
+U 1 1 5C686379
+P -1125 -9825
+F 0 "C1" H -1100 -9725 50  0000 L CNN
+F 1 "47 uF" H -1100 -9925 50  0000 L CNN
+F 2 "" H -1087 -9975 50  0001 C CNN
+F 3 "" H -1125 -9825 50  0001 C CNN
+	1    -1125 -9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L1
+U 1 1 5C68640D
+P -825 -9975
+F 0 "L1" V -875 -9975 50  0000 C CNN
+F 1 "L" V -750 -9975 50  0000 C CNN
+F 2 "" H -825 -9975 50  0001 C CNN
+F 3 "" H -825 -9975 50  0001 C CNN
+	1    -825 -9975
+	0    1    1    0   
+$EndComp
+$Comp
+L Dual_LDR_Modul U15
+U 1 1 5C698F1F
+P 1950 3975
+F 0 "U15" H 1950 3875 50  0000 C CNN
+F 1 "Dual_LDR_Modul" H 1950 4075 50  0000 C CNN
+F 2 "Potentiometer_addons:Dual_LDR_Module" H 1950 3975 50  0001 C CNN
+F 3 "DOCUMENTATION" H 1950 3975 50  0001 C CNN
+	1    1950 3975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Dual_LDR_Modul U16
+U 1 1 5C699BCE
+P 2700 3975
+F 0 "U16" H 2700 3875 50  0000 C CNN
+F 1 "Dual_LDR_Modul" H 2700 4075 50  0000 C CNN
+F 2 "Potentiometer_addons:Dual_LDR_Module" H 2700 3975 50  0001 C CNN
+F 3 "DOCUMENTATION" H 2700 3975 50  0001 C CNN
+	1    2700 3975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C20
+U 1 1 5C69A484
+P 1175 2750
+F 0 "C20" H 1200 2850 50  0000 L CNN
+F 1 "47nF" H 1200 2650 50  0000 L CNN
+F 2 "" H 1213 2600 50  0001 C CNN
+F 3 "" H 1175 2750 50  0001 C CNN
+	1    1175 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R24
+U 1 1 5C69A5B6
+P 1475 2900
+F 0 "R24" V 1555 2900 50  0000 C CNN
+F 1 "2M2" V 1475 2900 50  0000 C CNN
+F 2 "" V 1405 2900 50  0001 C CNN
+F 3 "" H 1475 2900 50  0001 C CNN
+	1    1475 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C21
+U 1 1 5C69A8A4
+P 2250 2900
+F 0 "C21" H 2275 3000 50  0000 L CNN
+F 1 "47nF" H 2275 2800 50  0000 L CNN
+F 2 "" H 2288 2750 50  0001 C CNN
+F 3 "" H 2250 2900 50  0001 C CNN
+	1    2250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C22
+U 1 1 5C69AAEE
+P 2700 2900
+F 0 "C22" H 2725 3000 50  0000 L CNN
+F 1 "47nF" H 2725 2800 50  0000 L CNN
+F 2 "" H 2738 2750 50  0001 C CNN
+F 3 "" H 2700 2900 50  0001 C CNN
+	1    2700 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R23
+U 1 1 5C69AC90
+P 1950 2750
+F 0 "R23" V 2030 2750 50  0000 C CNN
+F 1 "100K" V 1950 2750 50  0000 C CNN
+F 2 "" V 1880 2750 50  0001 C CNN
+F 3 "" H 1950 2750 50  0001 C CNN
+	1    1950 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L C C23
+U 1 1 5C69B1BA
+P 1800 3000
+F 0 "C23" H 1825 3100 50  0000 L CNN
+F 1 "150 pF" H 1825 2900 50  0000 L CNN
+F 2 "" H 1838 2850 50  0001 C CNN
+F 3 "" H 1800 3000 50  0001 C CNN
+	1    1800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADG5404 U14
+U 1 1 5C69C25E
+P -2025 2725
+F 0 "U14" H -2025 2625 50  0000 C CNN
+F 1 "ADG5404" H -2025 2825 50  0000 C CNN
+F 2 "MODULE" H -2025 2725 50  0001 C CNN
+F 3 "DOCUMENTATION" H -2025 2725 50  0001 C CNN
+	1    -2025 2725
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R101
+U 1 1 5C6B39BB
+P -3850 -4825
+F 0 "R101" V -3770 -4825 50  0000 C CNN
+F 1 "100K" V -3850 -4825 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V -3920 -4825 50  0001 C CNN
+F 3 "" H -3850 -4825 50  0001 C CNN
+	1    -3850 -4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D5
+U 1 1 5C7D2A66
+P -2550 -8400
+F 0 "D5" H -2550 -8300 50  0000 C CNN
+F 1 "PMEG045V100EPD" H -2550 -8500 50  0000 C CNN
+F 2 "" H -2550 -8400 50  0001 C CNN
+F 3 "" H -2550 -8400 50  0001 C CNN
+	1    -2550 -8400
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D6
+U 1 1 5C7D3167
+P -2550 -8075
+F 0 "D6" H -2550 -7975 50  0000 C CNN
+F 1 "PMEG045V100EPD" H -2550 -8175 50  0000 C CNN
+F 2 "" H -2550 -8075 50  0001 C CNN
+F 3 "" H -2550 -8075 50  0001 C CNN
+	1    -2550 -8075
+	-1   0    0    1   
+$EndComp
+$Comp
+L Fuse F3
+U 1 1 5C7D3256
+P -3050 -8400
+F 0 "F3" V -2970 -8400 50  0000 C CNN
+F 1 "Fuse" V -3125 -8400 50  0000 C CNN
+F 2 "" V -3120 -8400 50  0001 C CNN
+F 3 "" H -3050 -8400 50  0001 C CNN
+	1    -3050 -8400
+	0    1    1    0   
+$EndComp
+$Comp
+L Fuse F2
+U 1 1 5C7ED49F
+P -3050 -8950
+F 0 "F2" V -2970 -8950 50  0000 C CNN
+F 1 "Fuse" V -3125 -8950 50  0000 C CNN
+F 2 "" V -3120 -8950 50  0001 C CNN
+F 3 "" H -3050 -8950 50  0001 C CNN
+	1    -3050 -8950
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X03 J1
+U 1 1 5C7ED694
+P -4325 -8850
+F 0 "J1" H -4325 -8650 50  0000 C CNN
+F 1 "CONN_01X03" V -4225 -8850 50  0000 C CNN
+F 2 "" H -4325 -8850 50  0001 C CNN
+F 3 "" H -4325 -8850 50  0001 C CNN
+	1    -4325 -8850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 J2
+U 1 1 5C7ED7A6
+P -4325 -8300
+F 0 "J2" H -4325 -8100 50  0000 C CNN
+F 1 "CONN_01X03" V -4225 -8300 50  0000 C CNN
+F 2 "" H -4325 -8300 50  0001 C CNN
+F 3 "" H -4325 -8300 50  0001 C CNN
+	1    -4325 -8300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LDRSWITCH U12
+U 1 1 5C88EFC4
+P -7750 -1525
+F 0 "U12" H -7750 -1625 50  0000 C CNN
+F 1 "LDRSWITCH" H -7750 -1425 50  0000 C CNN
+F 2 "Optoisolators:Optoisolator_LCR-0202" H -7750 -1525 50  0001 C CNN
+F 3 "DOCUMENTATION" H -7750 -1525 50  0001 C CNN
+	1    -7750 -1525
+	0    1    1    0   
+$EndComp
+$Comp
+L LDRSWITCH U13
+U 1 1 5C88FB2A
+P -7150 -1525
+F 0 "U13" H -7150 -1625 50  0000 C CNN
+F 1 "LDRSWITCH" H -7150 -1425 50  0000 C CNN
+F 2 "Optoisolators:Optoisolator_LCR-0202" H -7150 -1525 50  0001 C CNN
+F 3 "DOCUMENTATION" H -7150 -1525 50  0001 C CNN
+	1    -7150 -1525
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_02X20 J4
+U 1 1 5C890588
+P -7225 2325
+F 0 "J4" H -7225 3375 50  0000 C CNN
+F 1 "CONN_02X20" V -7225 2325 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H -7225 1375 50  0001 C CNN
+F 3 "" H -7225 1375 50  0001 C CNN
+	1    -7225 2325
+	0    1    1    0   
+$EndComp
+Text GLabel -6275 1875 1    60   Input ~ 0
+SW1
+Text GLabel -6275 2725 3    60   Input ~ 0
+SW2
+Text GLabel -7250 -700 3    60   Input ~ 0
+SW2
+Text GLabel -7850 -700 3    60   Input ~ 0
+SW1
+$Comp
+L CONN_02X20 J5
+U 1 1 5C8914D2
+P -4825 2325
+F 0 "J5" H -4825 3375 50  0000 C CNN
+F 1 "CONN_02X20" V -4825 2325 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H -4825 1375 50  0001 C CNN
+F 3 "" H -4825 1375 50  0001 C CNN
+	1    -4825 2325
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDD #PWR01
+U 1 1 5C891C54
+P 2850 4925
+F 0 "#PWR01" H 2850 4675 50  0001 C CNN
+F 1 "GNDD" H 2850 4775 50  0000 C CNN
+F 2 "" H 2850 4925 50  0001 C CNN
+F 3 "" H 2850 4925 50  0001 C CNN
+	1    2850 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR02
+U 1 1 5C891F9F
+P 2100 4925
+F 0 "#PWR02" H 2100 4675 50  0001 C CNN
+F 1 "GNDD" H 2100 4775 50  0000 C CNN
+F 2 "" H 2100 4925 50  0001 C CNN
+F 3 "" H 2100 4925 50  0001 C CNN
+	1    2100 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR03
+U 1 1 5C892368
+P -3075 -6925
+F 0 "#PWR03" H -3075 -7075 50  0001 C CNN
+F 1 "+3V3" H -3075 -6785 50  0000 C CNN
+F 2 "" H -3075 -6925 50  0001 C CNN
+F 3 "" H -3075 -6925 50  0001 C CNN
+	1    -3075 -6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C16
+U 1 1 5C89413C
+P -3075 -6700
+F 0 "C16" H -3050 -6600 50  0000 L CNN
+F 1 "C" H -3050 -6800 50  0000 L CNN
+F 2 "" H -3037 -6850 50  0001 C CNN
+F 3 "" H -3075 -6700 50  0001 C CNN
+	1    -3075 -6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR04
+U 1 1 5C894EB1
+P -3075 -6300
+F 0 "#PWR04" H -3075 -6550 50  0001 C CNN
+F 1 "GNDD" H -3075 -6450 50  0000 C CNN
+F 2 "" H -3075 -6300 50  0001 C CNN
+F 3 "" H -3075 -6300 50  0001 C CNN
+	1    -3075 -6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK_2P J3
+U 1 1 5C8959BD
+P -8825 -3425
+F 0 "J3" H -9175 -3625 50  0000 C CNN
+F 1 "JACK_2P" H -8975 -3175 50  0000 C CNN
+F 2 "" H -8825 -3425 50  0001 C CNN
+F 3 "" H -8825 -3425 50  0001 C CNN
+	1    -8825 -3425
+	1    0    0    -1  
+$EndComp
+Text GLabel -7650 -2225 1    60   Input ~ 0
+TO_V1A
+$Comp
+L R R102
+U 1 1 5C8972B2
+P -4325 -4025
+F 0 "R102" V -4245 -4025 50  0000 C CNN
+F 1 "1M" V -4325 -4025 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V -4395 -4025 50  0001 C CNN
+F 3 "" H -4325 -4025 50  0001 C CNN
+	1    -4325 -4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C101
+U 1 1 5C8974E5
+P -3950 -3500
+F 0 "C101" H -3925 -3400 50  0000 L CNN
+F 1 "15uF" H -3925 -3600 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D6.3mm_P2.50mm" H -3912 -3650 50  0001 C CNN
+F 3 "" H -3950 -3500 50  0001 C CNN
+	1    -3950 -3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R104
+U 1 1 5C8975F2
+P -3700 -3500
+F 0 "R104" V -3620 -3500 50  0000 C CNN
+F 1 "1K5" V -3700 -3500 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V -3770 -3500 50  0001 C CNN
+F 3 "" H -3700 -3500 50  0001 C CNN
+	1    -3700 -3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C102
+U 1 1 5C89B819
+P -3450 -4650
+F 0 "C102" H -3425 -4550 50  0000 L CNN
+F 1 "20nF" H -3425 -4750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7.0mm_W2.0mm_P5.00mm" H -3412 -4800 50  0001 C CNN
+F 3 "" H -3450 -4650 50  0001 C CNN
+	1    -3450 -4650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R103
+U 1 1 5C89BFBE
+P -3950 -3100
+F 0 "R103" V -3870 -3100 50  0000 C CNN
+F 1 "22K" V -3950 -3100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V -4020 -3100 50  0001 C CNN
+F 3 "" H -3950 -3100 50  0001 C CNN
+	1    -3950 -3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LDRSWITCH U11
+U 1 1 5C89C270
+P -4975 -3175
+F 0 "U11" H -4975 -3275 50  0000 C CNN
+F 1 "LDRSWITCH" H -4975 -3075 50  0000 C CNN
+F 2 "Optoisolators:Optoisolator_LCR-0202" H -4975 -3175 50  0001 C CNN
+F 3 "DOCUMENTATION" H -4975 -3175 50  0001 C CNN
+	1    -4975 -3175
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C103
+U 1 1 5C89CA85
+P -3400 -3500
+F 0 "C103" H -3375 -3400 50  0000 L CNN
+F 1 "1uF" H -3375 -3600 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D6.3mm_P2.50mm" H -3362 -3650 50  0001 C CNN
+F 3 "" H -3400 -3500 50  0001 C CNN
+	1    -3400 -3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R105
+U 1 1 5C89CFFF
+P -2825 -4650
+F 0 "R105" V -2745 -4650 50  0000 C CNN
+F 1 "270K" V -2825 -4650 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V -2895 -4650 50  0001 C CNN
+F 3 "" H -2825 -4650 50  0001 C CNN
+	1    -2825 -4650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R106
+U 1 1 5C89D26B
+P -2825 -4375
+F 0 "R106" V -2745 -4375 50  0000 C CNN
+F 1 "82K" V -2825 -4375 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V -2895 -4375 50  0001 C CNN
+F 3 "" H -2825 -4375 50  0001 C CNN
+	1    -2825 -4375
+	0    1    1    0   
+$EndComp
+$Comp
+L R R107
+U 1 1 5C89D45C
+P -2825 -4125
+F 0 "R107" V -2745 -4125 50  0000 C CNN
+F 1 "470K" V -2825 -4125 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V -2895 -4125 50  0001 C CNN
+F 3 "" H -2825 -4125 50  0001 C CNN
+	1    -2825 -4125
+	0    1    1    0   
+$EndComp
+$Comp
+L C C105
+U 1 1 5C89D6AC
+P -2425 -3975
+F 0 "C105" H -2400 -3875 50  0000 L CNN
+F 1 "47pF" H -2400 -4075 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7.0mm_W2.0mm_P5.00mm" H -2387 -4125 50  0001 C CNN
+F 3 "" H -2425 -3975 50  0001 C CNN
+	1    -2425 -3975
+	-1   0    0    1   
+$EndComp
+$Comp
+L LDRSWITCH U4
+U 1 1 5C89D995
+P -2325 -5400
+F 0 "U4" H -2325 -5500 50  0000 C CNN
+F 1 "LDRSWITCH" H -2325 -5300 50  0000 C CNN
+F 2 "Optoisolators:Optoisolator_LCR-0202" H -2325 -5400 50  0001 C CNN
+F 3 "DOCUMENTATION" H -2325 -5400 50  0001 C CNN
+	1    -2325 -5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LDRSWITCH U8
+U 1 1 5C89E3DF
+P -1775 -5400
+F 0 "U8" H -1775 -5500 50  0000 C CNN
+F 1 "LDRSWITCH" H -1775 -5300 50  0000 C CNN
+F 2 "Optoisolators:Optoisolator_LCR-0202" H -1775 -5400 50  0001 C CNN
+F 3 "DOCUMENTATION" H -1775 -5400 50  0001 C CNN
+	1    -1775 -5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R108
+U 1 1 5C89E9C5
+P -2125 -4125
+F 0 "R108" V -2045 -4125 50  0000 C CNN
+F 1 "330K" V -2125 -4125 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V -2195 -4125 50  0001 C CNN
+F 3 "" H -2125 -4125 50  0001 C CNN
+	1    -2125 -4125
+	0    1    1    0   
+$EndComp
+$Comp
+L C C104
+U 1 1 5C89EB92
+P -2450 -4375
+F 0 "C104" H -2425 -4275 50  0000 L CNN
+F 1 "1nF" H -2425 -4475 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7.0mm_W2.0mm_P5.00mm" H -2412 -4525 50  0001 C CNN
+F 3 "" H -2450 -4375 50  0001 C CNN
+	1    -2450 -4375
+	0    -1   -1   0   
+$EndComp
+Text GLabel -3700 -2850 3    60   Input ~ 0
+GND_V1
+Text GLabel -2425 -3650 3    60   Input ~ 0
+GND_V1
+Text GLabel -3850 -5200 1    60   Input ~ 0
++420V
+Text GLabel -4325 -3775 3    60   Input ~ 0
+GND_V1
+$Comp
+L LDRSWITCH U10
+U 1 1 5C8A2D46
+P -675 -3775
+F 0 "U10" H -675 -3875 50  0000 C CNN
+F 1 "LDRSWITCH" H -675 -3675 50  0000 C CNN
+F 2 "Optoisolators:Optoisolator_LCR-0202" H -675 -3775 50  0001 C CNN
+F 3 "DOCUMENTATION" H -675 -3775 50  0001 C CNN
+	1    -675 -3775
+	1    0    0    -1  
+$EndComp
+Text GLabel -6375 1875 1    60   Input ~ 0
+SW3
+Text GLabel -6475 1875 1    60   Input ~ 0
+SW4
+Text GLabel -6575 1875 1    60   Input ~ 0
+SW5
+$Comp
+L +3V3 #PWR05
+U 1 1 5C8A5360
+P -2425 -6125
+F 0 "#PWR05" H -2425 -6275 50  0001 C CNN
+F 1 "+3V3" H -2425 -5985 50  0000 C CNN
+F 2 "" H -2425 -6125 50  0001 C CNN
+F 3 "" H -2425 -6125 50  0001 C CNN
+	1    -2425 -6125
+	1    0    0    -1  
+$EndComp
+Text GLabel 3975 -8100 3    60   Input ~ 0
+HEATER_GND
+Text GLabel 4850 -8075 3    60   Input ~ 0
+HEATER_GND
+Text GLabel 4650 -8075 3    60   Input ~ 0
+12V6
+Text GLabel 3775 -8100 3    60   Input ~ 0
+12V6
+$Comp
+L TL1963A-Q1 U3
+U 1 1 5C8A8336
+P -375 -8900
+F 0 "U3" H -375 -9000 50  0000 C CNN
+F 1 "TL1963A-Q1" H -375 -8800 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-5_TabPin6" H -375 -8900 50  0001 C CNN
+F 3 "DOCUMENTATION" H -375 -8900 50  0001 C CNN
+	1    -375 -8900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP C15
+U 1 1 5C8A9051
+P -1325 -7825
+F 0 "C15" H -1300 -7725 50  0000 L CNN
+F 1 "4700uF" H -1300 -7925 50  0000 L CNN
+F 2 "" H -1287 -7975 50  0001 C CNN
+F 3 "" H -1325 -7825 50  0001 C CNN
+	1    -1325 -7825
+	1    0    0    -1  
+$EndComp
+Text GLabel -3825 -8300 2    60   Input ~ 0
+HEATER_GND
+Text GLabel -425 -7275 3    60   Input ~ 0
+HEATER_GND
+$Comp
+L R R15
+U 1 1 5C8AAD1E
+P -325 -7875
+F 0 "R15" V -475 -7875 50  0000 C CNN
+F 1 "36K1 PAT0603E3612BST5" V -675 -7600 50  0000 C CNN
+F 2 "Resistors_SMD_Addons:R_0603_HandSolder" V -395 -7875 50  0001 C CNN
+F 3 "" H -325 -7875 50  0001 C CNN
+	1    -325 -7875
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R16
+U 1 1 5C8AAEB2
+P -325 -7500
+F 0 "R16" V -475 -7500 50  0000 C CNN
+F 1 "3K9 CPF0603B3K9E1" V -575 -7250 50  0000 C CNN
+F 2 "Resistors_SMD_Addons:R_0603_HandSolder" V -395 -7500 50  0001 C CNN
+F 3 "" H -325 -7500 50  0001 C CNN
+	1    -325 -7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C14
+U 1 1 5C8AC861
+P 850 -7950
+F 0 "C14" H 875 -7850 50  0000 L CNN
+F 1 "15 uF" H 875 -8050 50  0000 L CNN
+F 2 "" H 888 -8100 50  0001 C CNN
+F 3 "" H 850 -7950 50  0001 C CNN
+	1    850  -7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 5C8ACA3A
+P 600 -7950
+F 0 "C13" H 625 -7850 50  0000 L CNN
+F 1 "100 nF" H 625 -8050 50  0000 L CNN
+F 2 "" H 638 -8100 50  0001 C CNN
+F 3 "" H 600 -7950 50  0001 C CNN
+	1    600  -7950
+	1    0    0    -1  
+$EndComp
+Text GLabel 600  -7650 3    60   Input ~ 0
+HEATER_GND
+Text GLabel 175  -7975 3    60   Input ~ 0
+ThermalPad
+Text GLabel 1125 -8100 2    60   Input ~ 0
+12V6
+$Comp
+L C C12
+U 1 1 5C8ADEC7
+P 400 -7950
+F 0 "C12" H 425 -7850 50  0000 L CNN
+F 1 "10 uF X7R" H 425 -8050 50  0000 L CNN
+F 2 "" H 438 -8100 50  0001 C CNN
+F 3 "" H 400 -7950 50  0001 C CNN
+	1    400  -7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1950 -9500 -1475 -9500
+Wire Wire Line
+	-1950 -9975 -1125 -9975
+Wire Wire Line
+	-1900 -9725 -1950 -9725
+Wire Wire Line
+	-1475 -9500 -1475 -9975
+Wire Wire Line
+	-2250 -9975 -2250 -9725
+Wire Wire Line
+	-2250 -9975 -2425 -9975
+Wire Wire Line
+	-2250 -9200 -2250 -9500
+Wire Wire Line
+	-1850 -9200 -1950 -9200
+Connection ~ -1475 -9975
+Wire Wire Line
+	1325 2750 1800 2750
+Connection ~ 1475 2750
+Wire Wire Line
+	1900 3225 1900 2250
+Wire Wire Line
+	2000 3225 1900 3225
+Wire Wire Line
+	1800 3225 1800 3150
+Wire Wire Line
+	1800 2750 1800 2850
+Wire Wire Line
+	2100 3225 2550 3225
+Wire Wire Line
+	2650 3225 2750 3225
+Wire Wire Line
+	2100 2750 2700 2750
+Connection ~ 2250 2750
+Wire Wire Line
+	2700 3050 2700 3225
+Connection ~ 2700 3225
+Wire Wire Line
+	2250 3050 2250 3225
+Connection ~ 2250 3225
+Wire Wire Line
+	525  -9975 200  -9975
+Wire Wire Line
+	200  -9975 200  -10100
+Wire Wire Line
+	-2700 -8400 -2900 -8400
+Wire Wire Line
+	-4125 -8400 -3200 -8400
+Wire Wire Line
+	-2400 -8400 -1975 -8400
+Wire Wire Line
+	-2400 -8075 -1975 -8075
+Wire Wire Line
+	-1975 -8400 -1975 -7975
+Wire Wire Line
+	-4125 -8200 -3025 -8200
+Wire Wire Line
+	-3025 -8200 -3025 -8075
+Wire Wire Line
+	-3025 -8075 -2700 -8075
+Wire Wire Line
+	-4125 -8950 -3800 -8950
+Wire Wire Line
+	-3800 -8950 -3800 -8400
+Connection ~ -3800 -8400
+Wire Wire Line
+	-4125 -8850 -3950 -8850
+Wire Wire Line
+	-3950 -8850 -3950 -8300
+Wire Wire Line
+	-4125 -8300 -3825 -8300
+Wire Wire Line
+	-4125 -8750 -4050 -8750
+Wire Wire Line
+	-4050 -8750 -4050 -8200
+Connection ~ -4050 -8200
+Connection ~ -4150 -8300
+Wire Wire Line
+	-7850 -700 -7850 -875
+Wire Wire Line
+	-6275 2075 -6275 1875
+Wire Wire Line
+	-6275 2725 -6275 2575
+Wire Wire Line
+	2100 4925 2100 4725
+Wire Wire Line
+	2850 4725 2850 4925
+Wire Wire Line
+	-3075 -6550 -3075 -6300
+Wire Wire Line
+	-3075 -6850 -3075 -6925
+Wire Wire Line
+	-8375 -3575 -7850 -3575
+Wire Wire Line
+	-7850 -3575 -7850 -2125
+Connection ~ -7850 -2650
+Wire Wire Line
+	-8375 -3425 -8375 -3325
+Wire Wire Line
+	-3850 -4575 -3850 -4675
+Wire Wire Line
+	-4150 -4175 -4325 -4175
+Wire Wire Line
+	-3950 -3775 -3950 -3650
+Wire Wire Line
+	-3950 -3650 -3700 -3650
+Wire Wire Line
+	-3600 -4650 -3850 -4650
+Connection ~ -3850 -4650
+Wire Wire Line
+	-4225 -2950 -3700 -2950
+Wire Wire Line
+	-3950 -3250 -3950 -3350
+Wire Wire Line
+	-3725 -3650 -3400 -3650
+Connection ~ -3725 -3650
+Wire Wire Line
+	-3700 -3350 -3400 -3350
+Wire Wire Line
+	-3700 -3350 -3700 -2850
+Connection ~ -3950 -2950
+Wire Wire Line
+	-3300 -4650 -2975 -4650
+Wire Wire Line
+	-2975 -4375 -3075 -4375
+Wire Wire Line
+	-3075 -4650 -3075 -4125
+Connection ~ -3075 -4650
+Wire Wire Line
+	-2600 -4375 -2675 -4375
+Wire Wire Line
+	-3075 -4125 -2975 -4125
+Connection ~ -3075 -4375
+Wire Wire Line
+	-2675 -4125 -2275 -4125
+Connection ~ -2425 -4125
+Wire Wire Line
+	-1975 -4375 -1975 -4125
+Connection ~ -3700 -2950
+Wire Wire Line
+	-2425 -3650 -2425 -3825
+Wire Wire Line
+	-3850 -5200 -3850 -4975
+Wire Wire Line
+	-4325 -3875 -4325 -3775
+Connection ~ -1975 -4375
+Wire Wire Line
+	-1375 -4550 -1650 -4550
+Wire Wire Line
+	-1650 -4550 -1650 -3750
+Wire Wire Line
+	-1650 -3750 -2425 -3750
+Connection ~ -2425 -3750
+Wire Wire Line
+	-1475 -4650 -1475 -4750
+Wire Wire Line
+	-1475 -4750 -1300 -4750
+Wire Wire Line
+	-1300 -4750 -1300 -3875
+Connection ~ -1475 -4650
+Wire Wire Line
+	-6475 2075 -6475 1875
+Wire Wire Line
+	-6375 2075 -6375 1875
+Wire Wire Line
+	-6575 2075 -6575 1875
+Wire Wire Line
+	4850 -8075 4850 -8225
+Wire Wire Line
+	3975 -8100 3975 -8250
+Wire Wire Line
+	4650 -8075 4650 -8225
+Wire Wire Line
+	3775 -8100 3775 -8250
+Wire Wire Line
+	-525 -8150 -525 -7975
+Wire Wire Line
+	-525 -7975 -1975 -7975
+Connection ~ -1975 -8075
+Connection ~ -1325 -7975
+Connection ~ -3950 -8300
+Wire Wire Line
+	-425 -8150 -425 -7650
+Wire Wire Line
+	-1325 -7675 -425 -7675
+Connection ~ -425 -7675
+Wire Wire Line
+	-625 -8150 -625 -7975
+Connection ~ -625 -7975
+Wire Wire Line
+	-325 -8150 -325 -8025
+Wire Wire Line
+	-325 -7725 -225 -7725
+Wire Wire Line
+	-225 -7725 -225 -8150
+Wire Wire Line
+	-425 -7675 -425 -7275
+Wire Wire Line
+	-325 -7350 -425 -7350
+Connection ~ -425 -7350
+Wire Wire Line
+	-325 -7725 -325 -7650
+Wire Wire Line
+	-325 -8075 -350 -8075
+Wire Wire Line
+	-350 -8075 -350 -8225
+Wire Wire Line
+	-350 -8225 600  -8225
+Wire Wire Line
+	600  -8225 600  -8100
+Connection ~ -325 -8075
+Wire Wire Line
+	600  -8100 1125 -8100
+Wire Wire Line
+	600  -7800 600  -7650
+Wire Wire Line
+	400  -7800 850  -7800
+Connection ~ 850  -8100
+Connection ~ 600  -7800
+Wire Wire Line
+	400  -8100 400  -8225
+Connection ~ 400  -8225
+Wire Wire Line
+	-125 -8150 175  -8150
+Wire Wire Line
+	175  -8150 175  -7975
+Wire Wire Line
+	-7250 -700 -7250 -875
+Wire Wire Line
+	-7850 -2650 -7250 -2650
+Wire Wire Line
+	-7250 -2650 -7250 -2125
+Wire Wire Line
+	-7650 -2125 -7650 -2225
+Wire Wire Line
+	-4375 -3275 -3950 -3275
+Connection ~ -3950 -3275
+Wire Wire Line
+	-1875 -4375 -1875 -4800
+Connection ~ -1875 -4375
+Wire Wire Line
+	-2300 -4375 -1875 -4375
+Wire Wire Line
+	-2225 -4800 -2225 -4650
+Wire Wire Line
+	-2425 -4800 -2425 -4650
+Wire Wire Line
+	-2425 -4650 -2675 -4650
+Wire Wire Line
+	-2225 -4650 -1375 -4650
+Wire Wire Line
+	-1675 -4650 -1675 -4800
+Connection ~ -1675 -4650
+$Comp
+L Dual_LDR_Modul U9
+U 1 1 5C8A18F9
+P -625 -4500
+F 0 "U9" H -625 -4600 50  0000 C CNN
+F 1 "Dual_LDR_Modul" H -625 -4400 50  0000 C CNN
+F 2 "Potentiometer_addons:Dual_LDR_Module" H -625 -4500 50  0001 C CNN
+F 3 "DOCUMENTATION" H -625 -4500 50  0001 C CNN
+	1    -625 -4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-1300 -3875 -1275 -3875
+Wire Wire Line
+	-2425 -6050 -2425 -6125
+$Comp
+L +3V3 #PWR06
+U 1 1 5C8ADE45
+P -1875 -6125
+F 0 "#PWR06" H -1875 -6275 50  0001 C CNN
+F 1 "+3V3" H -1875 -5985 50  0000 C CNN
+F 2 "" H -1875 -6125 50  0001 C CNN
+F 3 "" H -1875 -6125 50  0001 C CNN
+	1    -1875 -6125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1875 -6050 -1875 -6125
+$Comp
+L +3V3 #PWR07
+U 1 1 5C8AE010
+P -7650 -700
+F 0 "#PWR07" H -7650 -850 50  0001 C CNN
+F 1 "+3V3" H -7650 -560 50  0000 C CNN
+F 2 "" H -7650 -700 50  0001 C CNN
+F 3 "" H -7650 -700 50  0001 C CNN
+	1    -7650 -700
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3V3 #PWR08
+U 1 1 5C8AE693
+P -7050 -700
+F 0 "#PWR08" H -7050 -850 50  0001 C CNN
+F 1 "+3V3" H -7050 -560 50  0000 C CNN
+F 2 "" H -7050 -700 50  0001 C CNN
+F 3 "" H -7050 -700 50  0001 C CNN
+	1    -7050 -700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-7050 -875 -7050 -700
+Wire Wire Line
+	-7650 -875 -7650 -700
+Wire Wire Line
+	-4375 -3075 -4225 -3075
+Wire Wire Line
+	-4225 -3075 -4225 -2950
+Text GLabel -7050 -2250 1    60   Input ~ 0
+TO_V2A
+Wire Wire Line
+	-7050 -2125 -7050 -2250
+Text GLabel -1275 -3550 3    60   Input ~ 0
+TO_V2A
+Wire Wire Line
+	-1275 -3550 -1275 -3675
+Text GLabel 2375 -5350 0    60   Input ~ 0
+TO_V2A
+$Comp
+L R R201
+U 1 1 5C8B0B4A
+P 2575 -5200
+F 0 "R201" V 2655 -5200 50  0000 C CNN
+F 1 "1M" V 2575 -5200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 2505 -5200 50  0001 C CNN
+F 3 "" H 2575 -5200 50  0001 C CNN
+	1    2575 -5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 -5350 2900 -5350
+Connection ~ 2575 -5350
+$Comp
+L CP C201
+U 1 1 5C8B1A91
+P 3075 -4650
+F 0 "C201" H 3100 -4550 50  0000 L CNN
+F 1 "15uF" H 3100 -4750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D6.3mm_P2.50mm" H 3113 -4800 50  0001 C CNN
+F 3 "" H 3075 -4650 50  0001 C CNN
+	1    3075 -4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LDRSWITCH U21
+U 1 1 5C8B20BD
+P 2375 -4300
+F 0 "U21" H 2375 -4400 50  0000 C CNN
+F 1 "LDRSWITCH" H 2375 -4200 50  0000 C CNN
+F 2 "Optoisolators:Optoisolator_LCR-0202" H 2375 -4300 50  0001 C CNN
+F 3 "DOCUMENTATION" H 2375 -4300 50  0001 C CNN
+	1    2375 -4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R203
+U 1 1 5C8B278F
+P 3075 -4250
+F 0 "R203" V 3155 -4250 50  0000 C CNN
+F 1 "22K" V 3075 -4250 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 3005 -4250 50  0001 C CNN
+F 3 "" H 3075 -4250 50  0001 C CNN
+	1    3075 -4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LDRSWITCH U22
+U 1 1 5C8B2A12
+P 4075 -4300
+F 0 "U22" H 4075 -4400 50  0000 C CNN
+F 1 "LDRSWITCH" H 4075 -4200 50  0000 C CNN
+F 2 "Optoisolators:Optoisolator_LCR-0202" H 4075 -4300 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4075 -4300 50  0001 C CNN
+	1    4075 -4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R205
+U 1 1 5C8B2B44
+P 3425 -4250
+F 0 "R205" V 3505 -4250 50  0000 C CNN
+F 1 "22K" V 3425 -4250 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 3355 -4250 50  0001 C CNN
+F 3 "" H 3425 -4250 50  0001 C CNN
+	1    3425 -4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C202
+U 1 1 5C8B2C53
+P 3425 -4650
+F 0 "C202" H 3450 -4550 50  0000 L CNN
+F 1 "47uF" H 3450 -4750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D6.3mm_P2.50mm" H 3463 -4800 50  0001 C CNN
+F 3 "" H 3425 -4650 50  0001 C CNN
+	1    3425 -4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R204
+U 1 1 5C8B307A
+P 3250 -4250
+F 0 "R204" V 3330 -4250 50  0000 C CNN
+F 1 "1K5" V 3250 -4250 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 3180 -4250 50  0001 C CNN
+F 3 "" H 3250 -4250 50  0001 C CNN
+	1    3250 -4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 -4400 3425 -4400
+Wire Wire Line
+	3425 -4400 3425 -4500
+Wire Wire Line
+	3250 -4400 3250 -4950
+Wire Wire Line
+	3250 -4950 3100 -4950
+Wire Wire Line
+	3075 -4800 3425 -4800
+Connection ~ 3250 -4800
+Wire Wire Line
+	3075 -4400 2975 -4400
+Wire Wire Line
+	3075 -4500 3075 -4400
+Wire Wire Line
+	2975 -4200 2975 -4100
+Wire Wire Line
+	2975 -4100 3425 -4100
+Connection ~ 3075 -4100
+Connection ~ 3250 -4100
+$Comp
+L R R202
+U 1 1 5C8B42E8
+P 3200 -6100
+F 0 "R202" V 3280 -6100 50  0000 C CNN
+F 1 "150K" V 3200 -6100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 3130 -6100 50  0001 C CNN
+F 3 "" H 3200 -6100 50  0001 C CNN
+	1    3200 -6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 -5750 3200 -5950
+Text GLabel 3200 -6375 1    60   Input ~ 0
++420V
+Wire Wire Line
+	3200 -6250 3200 -6375
+Text GLabel 2575 -4950 3    60   Input ~ 0
+GND_V2
+Wire Wire Line
+	2575 -4950 2575 -5050
+$Comp
+L LDRSWITCH U18
+U 1 1 5C8B6749
+P 5625 -4800
+F 0 "U18" H 5625 -4900 50  0000 C CNN
+F 1 "LDRSWITCH" H 5625 -4700 50  0000 C CNN
+F 2 "Optoisolators:Optoisolator_LCR-0202" H 5625 -4800 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5625 -4800 50  0001 C CNN
+	1    5625 -4800
+	0    1    1    0   
+$EndComp
+Connection ~ 3200 -5850
+$Comp
+L R R206
+U 1 1 5C8B6D21
+P 4375 -5850
+F 0 "R206" V 4455 -5850 50  0000 C CNN
+F 1 "82K" V 4375 -5850 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 4305 -5850 50  0001 C CNN
+F 3 "" H 4375 -5850 50  0001 C CNN
+	1    4375 -5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4525 -5850 5525 -5850
+Wire Wire Line
+	4225 -5850 3200 -5850
+Wire Wire Line
+	5525 -6150 5525 -5400
+$Comp
+L R R207
+U 1 1 5C8B7E43
+P 5300 -4925
+F 0 "R207" V 5380 -4925 50  0000 C CNN
+F 1 "10M" V 5300 -4925 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 5230 -4925 50  0001 C CNN
+F 3 "" H 5300 -4925 50  0001 C CNN
+	1    5300 -4925
+	-1   0    0    1   
+$EndComp
+$Comp
+L LDRSWITCH U17
+U 1 1 5C8B83E5
+P 4550 -4875
+F 0 "U17" H 4550 -4975 50  0000 C CNN
+F 1 "LDRSWITCH" H 4550 -4775 50  0000 C CNN
+F 2 "Optoisolators:Optoisolator_LCR-0202" H 4550 -4875 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4550 -4875 50  0001 C CNN
+	1    4550 -4875
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C203
+U 1 1 5C8B8559
+P 5150 -5425
+F 0 "C203" H 5175 -5325 50  0000 L CNN
+F 1 "15uF" H 5175 -5525 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D6.3mm_P2.50mm" H 5188 -5575 50  0001 C CNN
+F 3 "" H 5150 -5425 50  0001 C CNN
+	1    5150 -5425
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 -4600 3    60   Input ~ 0
+GND_V2
+Wire Wire Line
+	5300 -4600 5300 -4775
+Wire Wire Line
+	5300 -4775 5150 -4775
+Wire Wire Line
+	5150 -5275 5150 -4975
+Wire Wire Line
+	5300 -5075 5300 -5175
+Wire Wire Line
+	5300 -5175 5150 -5175
+Connection ~ 5150 -5175
+Wire Wire Line
+	5150 -5575 5150 -5850
+Connection ~ 5150 -5850
+Connection ~ 5300 -4775
+$Comp
+L C C204
+U 1 1 5C8B96C6
+P 6425 -6150
+F 0 "C204" H 6450 -6050 50  0000 L CNN
+F 1 "750pF" H 6450 -6250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 6463 -6300 50  0001 C CNN
+F 3 "" H 6425 -6150 50  0001 C CNN
+	1    6425 -6150
+	0    1    1    0   
+$EndComp
+$Comp
+L C C205
+U 1 1 5C8B9817
+P 6425 -5875
+F 0 "C205" H 6450 -5775 50  0000 L CNN
+F 1 "250pF" H 6450 -5975 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 6463 -6025 50  0001 C CNN
+F 3 "" H 6425 -5875 50  0001 C CNN
+	1    6425 -5875
+	0    1    1    0   
+$EndComp
+$Comp
+L C C206
+U 1 1 5C8B9938
+P 6425 -5350
+F 0 "C206" H 6450 -5250 50  0000 L CNN
+F 1 "100nF" H 6450 -5450 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 6463 -5500 50  0001 C CNN
+F 3 "" H 6425 -5350 50  0001 C CNN
+	1    6425 -5350
+	0    1    1    0   
+$EndComp
+$Comp
+L C C207
+U 1 1 5C8B9A5C
+P 6425 -5075
+F 0 "C207" H 6450 -4975 50  0000 L CNN
+F 1 "47nF" H 6450 -5175 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 6463 -5225 50  0001 C CNN
+F 3 "" H 6425 -5075 50  0001 C CNN
+	1    6425 -5075
+	0    1    1    0   
+$EndComp
+$Comp
+L R R208
+U 1 1 5C8BA0A1
+P 6125 -5700
+F 0 "R208" V 6205 -5700 50  0000 C CNN
+F 1 "100K" V 6125 -5700 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 6055 -5700 50  0001 C CNN
+F 3 "" H 6125 -5700 50  0001 C CNN
+	1    6125 -5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6275 -5875 6125 -5875
+Wire Wire Line
+	6125 -6150 6125 -5850
+Wire Wire Line
+	6275 -5350 6125 -5350
+Wire Wire Line
+	6125 -5550 6125 -5075
+Wire Wire Line
+	5725 -5400 6125 -5400
+Connection ~ 6125 -5400
+Wire Wire Line
+	6275 -6150 5525 -6150
+Connection ~ 5525 -5850
+Wire Wire Line
+	6125 -5075 6275 -5075
+Connection ~ 6125 -5350
+Connection ~ 6125 -6150
+Connection ~ 6125 -5875
+$Comp
+L R R209
+U 1 1 5C8BBD2F
+P 6725 -6000
+F 0 "R209" V 6805 -6000 50  0000 C CNN
+F 1 "10M" V 6725 -6000 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 6655 -6000 50  0001 C CNN
+F 3 "" H 6725 -6000 50  0001 C CNN
+	1    6725 -6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6575 -6150 6875 -6150
+Wire Wire Line
+	6600 -5850 6875 -5850
+Wire Wire Line
+	6600 -5850 6600 -5875
+Wire Wire Line
+	6600 -5875 6575 -5875
+$Comp
+L LDRSWITCH U5
+U 1 1 5C8BC2DA
+P 7475 -6025
+F 0 "U5" H 7475 -6125 50  0000 C CNN
+F 1 "LDRSWITCH" H 7475 -5925 50  0000 C CNN
+F 2 "Optoisolators:Optoisolator_LCR-0202" H 7475 -6025 50  0001 C CNN
+F 3 "DOCUMENTATION" H 7475 -6025 50  0001 C CNN
+	1    7475 -6025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6875 -6150 6875 -6125
+Connection ~ 6725 -6150
+Wire Wire Line
+	6875 -5925 6875 -5600
+Connection ~ 6725 -5850
+$Comp
+L Dual_LDR_Modul U7
+U 1 1 5C8BCD47
+P 8025 -5450
+F 0 "U7" H 8025 -5550 50  0000 C CNN
+F 1 "Dual_LDR_Modul" H 8025 -5350 50  0000 C CNN
+F 2 "Potentiometer_addons:Dual_LDR_Module" H 8025 -5450 50  0001 C CNN
+F 3 "DOCUMENTATION" H 8025 -5450 50  0001 C CNN
+	1    8025 -5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Dual_LDR_Modul U19
+U 1 1 5C8BD286
+P 8025 -4700
+F 0 "U19" H 8025 -4800 50  0000 C CNN
+F 1 "Dual_LDR_Modul" H 8025 -4600 50  0000 C CNN
+F 2 "Potentiometer_addons:Dual_LDR_Module" H 8025 -4700 50  0001 C CNN
+F 3 "DOCUMENTATION" H 8025 -4700 50  0001 C CNN
+	1    8025 -4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6875 -5600 7275 -5600
+Connection ~ 6875 -5850
+Wire Wire Line
+	6575 -5350 7125 -5350
+Wire Wire Line
+	7125 -5350 7125 -4850
+Wire Wire Line
+	7125 -5300 7275 -5300
+Wire Wire Line
+	7275 -5500 7275 -5400
+Wire Wire Line
+	7125 -4850 7275 -4850
+Connection ~ 7125 -5300
+Wire Wire Line
+	7275 -4750 6900 -4750
+Wire Wire Line
+	6900 -4750 6900 -5075
+Wire Wire Line
+	6900 -5075 6575 -5075
+Wire Wire Line
+	7275 -4650 7275 -4750
+Text GLabel 7275 -4275 3    60   Input ~ 0
+GND_V2
+Wire Wire Line
+	7275 -4550 7275 -4275
+Text GLabel 7150 -5500 0    60   Input ~ 0
+TONE1_OUT
+Wire Wire Line
+	7275 -5500 7150 -5500
+Text GLabel 9925 -5675 0    60   Input ~ 0
+TONE1_OUT
+$Comp
+L Dual_LDR_Modul U20
+U 1 1 5C8BEC08
+P 11000 -4700
+F 0 "U20" H 11000 -4800 50  0000 C CNN
+F 1 "Dual_LDR_Modul" H 11000 -4600 50  0000 C CNN
+F 2 "Potentiometer_addons:Dual_LDR_Module" H 11000 -4700 50  0001 C CNN
+F 3 "DOCUMENTATION" H 11000 -4700 50  0001 C CNN
+	1    11000 -4700
+	-1   0    0    1   
+$EndComp
+Text GLabel 10250 -4350 3    60   Input ~ 0
+GND_V2
+Text GLabel 10175 -4725 0    60   Input ~ 0
+GAIN2
+Wire Wire Line
+	10250 -4650 10250 -4750
+Wire Wire Line
+	10250 -4550 10250 -4350
+Wire Wire Line
+	10250 -4725 10175 -4725
+Connection ~ 10250 -4725
+Text GLabel 11075 -5175 2    60   Input ~ 0
+GAIN2
+$Comp
+L LDRSWITCH U6
+U 1 1 5C8BFAC5
+P 11400 -5575
+F 0 "U6" H 11400 -5675 50  0000 C CNN
+F 1 "LDRSWITCH" H 11400 -5475 50  0000 C CNN
+F 2 "Optoisolators:Optoisolator_LCR-0202" H 11400 -5575 50  0001 C CNN
+F 3 "DOCUMENTATION" H 11400 -5575 50  0001 C CNN
+	1    11400 -5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C208
+U 1 1 5C8BFDFB
+P 10300 -5675
+F 0 "C208" H 10325 -5575 50  0000 L CNN
+F 1 "75pF" H 10325 -5775 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 10338 -5825 50  0001 C CNN
+F 3 "" H 10300 -5675 50  0001 C CNN
+	1    10300 -5675
+	0    1    1    0   
+$EndComp
+$Comp
+L C C209
+U 1 1 5C8C0515
+P 10300 -5325
+F 0 "C209" H 10325 -5225 50  0000 L CNN
+F 1 "120pF" H 10325 -5425 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 10338 -5475 50  0001 C CNN
+F 3 "" H 10300 -5325 50  0001 C CNN
+	1    10300 -5325
+	0    1    1    0   
+$EndComp
+$Comp
+L R R210
+U 1 1 5C8C0AEF
+P 10600 -5525
+F 0 "R210" V 10680 -5525 50  0000 C CNN
+F 1 "10M" V 10600 -5525 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 10530 -5525 50  0001 C CNN
+F 3 "" H 10600 -5525 50  0001 C CNN
+	1    10600 -5525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10450 -5325 11650 -5325
+Wire Wire Line
+	10600 -5325 10600 -5375
+Wire Wire Line
+	10450 -5675 10800 -5675
+Wire Wire Line
+	9925 -5675 10150 -5675
+Wire Wire Line
+	10150 -5675 10150 -4850
+Wire Wire Line
+	10975 -5325 10975 -5175
+Connection ~ 10600 -5325
+Connection ~ 10600 -5675
+Wire Wire Line
+	10800 -5475 10800 -5325
+Connection ~ 10800 -5325
+Wire Wire Line
+	10150 -4850 10250 -4850
+Connection ~ 10150 -5325
+Wire Wire Line
+	10975 -5175 11075 -5175
+Wire Wire Line
+	12675 -5175 11650 -5175
+Wire Wire Line
+	11650 -5175 11650 -5325
+Connection ~ 10975 -5325
+$Comp
+L CP C210
+U 1 1 5C8C4176
+P 12875 -4525
+F 0 "C210" H 12900 -4425 50  0000 L CNN
+F 1 "15uF" H 12900 -4625 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D6.3mm_P2.50mm" H 12913 -4675 50  0001 C CNN
+F 3 "" H 12875 -4525 50  0001 C CNN
+	1    12875 -4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R212
+U 1 1 5C8C494E
+P 13225 -4525
+F 0 "R212" V 13305 -4525 50  0000 C CNN
+F 1 "1K5" V 13225 -4525 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 13155 -4525 50  0001 C CNN
+F 3 "" H 13225 -4525 50  0001 C CNN
+	1    13225 -4525
+	-1   0    0    1   
+$EndComp
+Text GLabel 12875 -4225 3    60   Input ~ 0
+GND_V2
+Wire Wire Line
+	12875 -4675 13225 -4675
+Wire Wire Line
+	12875 -4675 12875 -4775
+Wire Wire Line
+	12875 -4375 12875 -4225
+Wire Wire Line
+	13225 -4375 12875 -4375
+$Comp
+L R R211
+U 1 1 5C8C5CC6
+P 12975 -5900
+F 0 "R211" V 13055 -5900 50  0000 C CNN
+F 1 "100K" V 12975 -5900 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 12905 -5900 50  0001 C CNN
+F 3 "" H 12975 -5900 50  0001 C CNN
+	1    12975 -5900
+	1    0    0    -1  
+$EndComp
+Text GLabel 12975 -6200 1    60   Input ~ 0
++420V
+Wire Wire Line
+	12975 -6050 12975 -6200
+Wire Wire Line
+	12975 -5575 12975 -5750
+$Comp
+L C C2
+U 1 1 5C8C73AD
+P 13400 -5700
+F 0 "C2" H 13425 -5600 50  0000 L CNN
+F 1 "470nF" H 13425 -5800 50  0000 L CNN
+F 2 "" H 13438 -5850 50  0001 C CNN
+F 3 "" H 13400 -5700 50  0001 C CNN
+	1    13400 -5700
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDD #PWR09
+U 1 1 5C8BDD65
+P 11875 -4850
+F 0 "#PWR09" H 11875 -5100 50  0001 C CNN
+F 1 "GNDD" H 11875 -5000 50  0000 C CNN
+F 2 "" H 11875 -4850 50  0001 C CNN
+F 3 "" H 11875 -4850 50  0001 C CNN
+	1    11875 -4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11875 -4850 11750 -4850
+Wire Wire Line
+	13250 -5700 12975 -5700
+Connection ~ 12975 -5700
+$EndSCHEMATC

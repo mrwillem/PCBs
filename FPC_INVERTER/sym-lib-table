@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name MIDI_FOOTSWITCH-rescue)(type Legacy)(uri ${KIPRJMOD}/MIDI_FOOTSWITCH-rescue.lib)(options "")(descr ""))
+  (lib (name crystal_smd_ceramic)(type Legacy)(uri /home/willem/kicad/library/crystal_smd_ceramic.lib)(options "")(descr ""))
+  (lib (name stm32)(type Legacy)(uri /home/willem/kicad/library/stm32.lib)(options "")(descr ""))
+  (lib (name txb0102)(type Legacy)(uri /home/willem/kicad/library/txb0102.lib)(options "")(descr ""))
+  (lib (name 25LC1024)(type Legacy)(uri /home/willem/kicad/library/25LC1024.lib)(options "")(descr ""))
+  (lib (name FPC_INVERTER-rescue)(type Legacy)(uri ${KIPRJMOD}/FPC_INVERTER-rescue.lib)(options "")(descr ""))
+)

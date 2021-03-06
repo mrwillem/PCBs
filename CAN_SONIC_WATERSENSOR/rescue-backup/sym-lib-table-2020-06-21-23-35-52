@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CAN_SONIC_WATERSENSOR-rescue)(type Legacy)(uri ${KIPRJMOD}/CAN_SONIC_WATERSENSOR-rescue.lib)(options "")(descr ""))
+)
